@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/src/style.css" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <title>Learn Vietnamese</title>
+    </head>
+    <body>
+        <div id="app">
+            <h1>Learn Vietnamese</h1>
+            <div id="question">
+                <h2 id="question-text">Translate This<span class="normal">:</span></h2>
+                <h2 id="title"></h2>
+            </div>
+            <div id="answers">
+                <ul>
+                    <li class="alternative"></li>
+                    <li class="alternative"></li>
+                    <li class="alternative"></li>
+                    <li class="alternative"></li>
+                </ul>
+            </div>
+            <!-- <button id="btn">Submit</button> -->
+            <div id="score-container">
+                <h3>Score: <span id="score"></span></h3>
+            </div>
+            <div id="result-container">
+                <h3 id="result-text"></h3>
+            </div>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
